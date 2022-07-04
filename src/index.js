@@ -1,17 +1,17 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./components/App";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+ReactDOM.render(
+    <div>
+<App />
+</div>
+, document.getElementById("root"));
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+//1. Apply CSS styles to App.jsx component
+//to match the appearance on the completed app:
+//https://c6fkx.csb.app/
+//2. Extract the contact card as a reusable Card component.
+//3. Use props to render the default Beyonce contact card
+//so the Card component can be reused for other contacts.
+//4. Import the contacts.js file to create card components.
